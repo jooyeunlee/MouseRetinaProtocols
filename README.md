@@ -42,7 +42,7 @@ The raw confocal TIFF files are available on Zenodo: [Download image data](https
 - **PSD95:** labeling associated with excitatory postsynaptic sites.
 - **Gephyrin:** labeling associated with inhibitory postsynaptic sites.
 
-Images were acquired with a voxel size of 0.1020 × 0.1020 × 0.3002 µm (X × Y × Z), corresponding to an XY pixel size of 0.1020 µm and a Z-step of 0.3002 µm. Panel C also includes an enlarged merged view of a dendritic segment. Refer to the figure’s scale bars for displayed spatial dimensions.
+Images were acquired with a voxel size of 0.1020 x 0.1020 x 0.3002 µm (X x Y x Z), corresponding to an XY pixel size of 0.1020 µm and a Z-step of 0.3002 µm. Panel C also includes an enlarged merged view of a dendritic segment. Refer to the figure’s scale bars for displayed spatial dimensions.
 
 ## Data scope
 
