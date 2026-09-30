@@ -39,10 +39,10 @@ The figure labels signal amplitudes in picoamp (pA).
 The raw confocal TIFF files are available on Zenodo: [Download image data](https://doi.org/10.5281/zenodo.23051601).
 
 - **Lucifer Yellow:** labeled cell morphology.
-- **PSD95:** labeling associated with excitatory postsynaptic sites.
-- **Gephyrin:** labeling associated with inhibitory postsynaptic sites.
+- **PSD95:** labeling excitatory postsynaptic sites.
+- **Gephyrin:** labeling inhibitory postsynaptic sites.
 
-Images were acquired with a voxel size of 0.1020 x 0.1020 x 0.3002 µm (X x Y x Z), corresponding to an XY pixel size of 0.1020 µm and a Z-step of 0.3002 µm. Panel C also includes an enlarged merged view of a dendritic segment. Refer to the figure’s scale bars for displayed spatial dimensions.
+Images were acquired with a voxel size of 0.1020 x 0.1020 x 0.3002 µm (X x Y x Z). Panel C also includes a stretch view of a dendritic segment. Refer to the figure’s scale bars for displayed spatial dimensions.
 
 ## Data scope
 
