@@ -30,7 +30,7 @@ Each worksheet contains a time column in milliseconds and the corresponding reco
 
 Time zero marks the beginning of each recording epoch.
 
-The traces were exported from `D6b4Rc3_epochs_101_102_203.mat`. The spike, excitatory current, and inhibitory current traces were recorded from the same cell (D6b4Rc3) in separate recording epochs. The Excel export preserves the stored signal values without additional filtering, normalization, or baseline subtraction. 
+The traces were exported from `D6b4Rc3_epochs_101_102_203.mat`. The spike, excitatory current, and inhibitory current traces were recorded from the same cell (D6b4Rc3) in separate recording epochs.
 
 The figure labels signal amplitudes in picoamp (pA).
 
