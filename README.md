@@ -36,7 +36,7 @@ The figure labels signal amplitudes in picoamp (pA).
 
 ### Microscopy images — panel C
 
-The image files correspond to the following labels shown in panel C:
+The raw confocal TIFF files are hosted on Zenodo:
 
 - **Lucifer Yellow:** labeled cell morphology.
 - **PSD95:** labeling associated with excitatory postsynaptic sites.
