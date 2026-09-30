@@ -2,7 +2,7 @@
 Source data supporting “Functional and anatomical assessments of synapses in mouse retina,” including electrophysiological recordings and links to raw confocal images hosted on Zenodo.
 
 
-This repository contains electrophysiological traces and microscopy images supporting panels B and C of the accompanying figure.
+This repository contains electrophysiological traces and microscopy images supporting panels B and C of the Figure 15.
 
 ## Dataset contents
 
