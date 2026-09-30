@@ -13,8 +13,8 @@ The Figure15_traces.xlsx workbook contains recordings from a cell, organized int
 | Worksheet | Epoch | Recording |
 |---|---|---|
 | spike | 101 | Spike response |
-| excitation | 102 | Excitatory current response |
-| inhibition | 203 | Inhibitory current response |
+| excitation | 102 | Excitatory current |
+| inhibition | 203 | Inhibitory current |
 
 Each worksheet contains a time column in milliseconds and the corresponding recorded signal.
 
