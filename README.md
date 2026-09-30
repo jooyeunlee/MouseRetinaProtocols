@@ -1,5 +1,5 @@
 # Functional and anatomical assessments of synapses in mouse retina
-Source data supporting “Functional and anatomical assessments of synapses in mouse retina,” including electrophysiological recordings and confocal images.
+Source data supporting “Functional and anatomical assessments of synapses in mouse retina,” including electrophysiological recordings and links to raw confocal images hosted on Zenodo.
 
 
 This repository contains electrophysiological traces and microscopy images supporting panels B and C of the accompanying figure.
