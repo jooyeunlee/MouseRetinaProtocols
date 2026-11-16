@@ -1,49 +1,41 @@
 # Functional and anatomical assessments of synapses in mouse retina
-Source data supporting “Functional and anatomical assessments of synapses in mouse retina,” including electrophysiological recordings and links to raw confocal images hosted on Zenodo.
 
-
-This repository contains electrophysiological traces and microscopy images supporting panels B and C of the Figure 15.
+Source data supporting “Functional and anatomical assessments of synapses in mouse retina.” This repository includes electrophysiological traces for Figure 15B, light response measurements across cells, and a link to the raw confocal images for Figure 15C.
 
 ## Dataset contents
 
-### Figure15_traces.xlsx — panel B
+### [Figure15_traces.xlsx](Figure15_traces.xlsx) (Figure 15B)
 
-The Figure15_traces.xlsx workbook contains recordings from a cell, organized into three worksheets:
+The workbook contains three recordings from the same cell (D6b4Rc3), organized by worksheet.
 
 | Worksheet | Epoch | Recording |
-|---|---|---|
-| spike | 101 | Spike response |
-| excitation | 102 | Excitatory current |
-| inhibition | 203 | Inhibitory current |
+| --- | --- | --- |
+| `spike` | 101 | Spike response |
+| `excitation` | 102 | Excitatory current |
+| `inhibition` | 203 | Inhibitory current |
 
-Each worksheet contains a time column in milliseconds and the corresponding recorded signal.
+Each worksheet contains time in milliseconds and the corresponding recorded signal in picoamperes (pA). The traces were exported from `D6b4Rc3_epochs_101_102_203.mat`.
 
-**Recording timing**
+Each recording epoch contains 16,000 samples acquired at 10 kHz (0.1 ms per sample) over 1.6 s. Time zero marks the start of the epoch. The 500 ms light stimulus begins at 500 ms and ends at 1,000 ms.
 
-- Sampling rate: 10 kHz
-- Sampling interval: 0.1 ms
-- Recording duration: 1.6 s
-- Number of samples: 16,000 per trace
-- Light stimulus onset: 500 ms
-- Light stimulus offset: 1000 ms
-- Stimulus duration: 500 ms
+### [LightResponse.xlsx](LightResponse.xlsx)
 
-Time zero marks the beginning of each recording epoch.
+This workbook contains responses to a 500 ms light step across cells. Each worksheet includes individual cell responses and the mean and standard error of the mean (SEM) across cells.
 
-The traces were exported from `D6b4Rc3_epochs_101_102_203.mat`. The spike, excitatory current, and inhibitory current traces were recorded from the same cell (D6b4Rc3) in separate recording epochs.
+| Worksheet | Cells | Measurements |
+| --- | ---: | --- |
+| `Spikes per sec` | 22 | Peristimulus time histograms (PSTHs) in 20 ms bins and maximum firing rate during the light step (spikes/s) |
+| `Excitation` | 11 | Excitatory current traces and peak current magnitudes (pA), and charge transfer (pC) |
+| `Inhibition` | 17 | Inhibitory current traces and peak current magnitudes (pA), and charge transfer (pC) |
 
-The figure labels signal amplitudes in picoamp (pA).
+Current traces are tabulated at 1 ms intervals. Charge transfer was calculated over the 500 ms light-on period (500–1,000 ms). The inhibitory recordings were pooled across holding potentials ranging from +15 to +55 mV. Cell numbers are specific to each worksheet.
 
-### Microscopy images — panel C
+### Microscopy images (Figure 15C)
 
-The raw confocal TIFF files are available on Zenodo: [Download image data](https://doi.org/10.5281/zenodo.23051601).
+The raw confocal TIFF files are available on Zenodo. [Download image data](https://doi.org/10.5281/zenodo.23051601)
 
-- **Lucifer Yellow:** labeled cell morphology.
-- **PSD95:** labeling excitatory postsynaptic sites.
-- **Gephyrin:** labeling inhibitory postsynaptic sites.
+- **Lucifer Yellow** labels cell morphology.
+- **PSD95** labels excitatory postsynaptic sites.
+- **Gephyrin** labels inhibitory postsynaptic sites.
 
-Images were acquired with a voxel size of 0.1020 x 0.1020 x 0.3002 µm (X x Y x Z). Panel C also includes a stretch view of a dendritic segment. Refer to the figure’s scale bars for displayed spatial dimensions.
-
-## Data scope
-
-These files provide representative recordings and images.
+Images were acquired at a voxel size of 0.1020 × 0.1020 × 0.3002 µm (X × Y × Z). Panel C also includes a stretch view of a dendritic segment. Refer to the figure’s scale bars for the displayed spatial dimensions.
