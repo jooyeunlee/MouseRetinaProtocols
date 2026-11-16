@@ -10,7 +10,7 @@ This workbook contains the single-cell traces shown in Figure 15B and the light 
 
 #### Single-cell traces (Figure 15B)
 
-The spike, excitatory current, and inhibitory current traces were recorded from the same cell (D6b4Rc3) in separate epochs and exported from `D6b4Rc3_epochs_101_102_203.mat`.
+The spike, excitatory current, and inhibitory current traces were recorded from the same cell (D6b4Rc3) in separate epochs.
 
 | Epoch | Recording |
 | --- | --- |
